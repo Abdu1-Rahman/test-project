@@ -1,11 +1,14 @@
-import React from 'react'
-import BasicExample from './components/Topnav'
+
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './pages/home.jsx';
+
 
 function App() {
   return (
-    <div>
-      <BasicExample />
-    </div>
+    <>
+      <Home/>
+    </>
   )
 }
 
